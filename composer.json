@@ -1,0 +1,24 @@
+{
+    "name": "mxgrim/php-garantexio-api",
+    "description": "",
+    "keywords": ["garantexio","cryptocurrency","Garantex"],
+    "license": "MIT",
+    "repositories": [ {
+            "type": "vcs",
+            "url": "https://github.com/mxgrim/php-garantexio-api"
+    }],
+    "require": {
+        "php": ">=7.1",
+        "ext-curl": "*",
+        "lcobucci/jwt": "^3.3"
+    },
+    "config": {
+    	"optimize-autoloader": true,
+        "minimum-stability": "stable"
+    },
+    "autoload": {
+        "classmap": [
+          "php-garantexio-api.php"
+        ]
+    }
+}
