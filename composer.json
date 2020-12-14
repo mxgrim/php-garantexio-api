@@ -10,7 +10,7 @@
     "require": {
         "php": ">=7.1",
         "ext-curl": "*",
-        "lcobucci/jwt": "^3.3"
+        "lcobucci/jwt": "~3.3.3"
     },
     "config": {
     	"optimize-autoloader": true,
